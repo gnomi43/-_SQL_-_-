@@ -1,0 +1,3 @@
+select * from b_event
+where event_name like 'SALE_NEW_ORDER'
+order by date_insert desc
